@@ -1,0 +1,123 @@
+<!-- 
+Name: Nur Suhaira Bte Badrul Hisham
+UOW ID: 5841549
+Assignment 1 Task 2
+-->
+
+<!DOCTYPE html>
+<html>
+	<head lang = "en">
+		<meta charset = "utf-8">
+		<title> Search LightBulb Trolley Bookshop </title>
+		<link rel = "stylesheet" href = "task1.css">
+		<script type = "text/JavaScript" src = "task2.js"></script>
+	</head>
+	<body>
+		<div class = "background">
+			<div class = "banner">
+				<img src = "images/banner.jpg" alt = "banner" height = "200" width = "1285">
+				<div class = "logo">
+					<img src = "images/logo.jpg" alt = "logo" height = "100" width = "120">
+					LightBulb Trolley Bookshop
+				</div>
+			</div>	
+			<div class = "promo">
+				JANUARY 2019 - BROWSE OVER 4000 CATEGORIES - HAPPY NEW YEAR!
+			</div>
+			<div class = "navbar">
+				<a class = "active" href = "task2.html"><img src = "images/back.png" height = "30" width = "30"> BACK </a>
+			</div>
+			<table>
+				<tr>
+					<th colspan = 2><p><b> LifeBulb Trolley Search Form </b></p></th>
+				</tr>
+				<form id = "searchForm">
+				<tr>
+					<td>
+						<b><i> Author:* </i></b>
+					</td>
+					<td>
+						<input type = "text" name = "author" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b><i> Book Title:* </i></b>
+					</td>
+					<td>
+						<input type = "text" name = "title" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b><i> Category:* </i></b>
+					</td>
+					<td>
+						<input list = "categories" name = "category">
+							<datalist id = "categories">
+								<option value = "Magazines"/>
+								<option value = "Comics"/>
+								<option value = "Non-Fiction"/>
+								<option value = "Fiction"/>
+								<option value = "Children"/>
+							</datalist>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b><i> Date Published: </i></b>
+					</td>
+					<td>
+						<input type = "date" name = "date">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b><i> Publisher: </i></b>
+					</td>
+					<td>
+						<select name = "publisher" size = "5">
+							<option value = "p1"> Transworld </option>
+							<option value = "p2"> Vintage Publishing </option>
+							<option value = "p3"> Harpercollins Publishers </option>
+							<option value = "p4"> Brown Book Group </option>
+							<option value = "p5"> Bantam Press </option>
+							<option value = "p6"> Hodder & Stoughton </option>
+							<option value = "p7"> Random House Publishing </option>
+							<option value = "p8"> Macmillan </option>
+					  </select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b><i> ISBN: </i></b>
+					</td>
+					<td>
+						<textarea name = "isbn" rows = "2" cols = "10"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b><i> Condition: </i></b>
+					</td>
+					<td>
+						<input type = "radio" name = "condition" value = "new"> New </input>
+						<input type = "radio" name = "condition" value = "used"> Used </input>
+					</td>
+				</tr>
+				</form>
+				<tr>
+					<td>
+						<i> * mandatory fields </i>
+					</td>
+					<td>
+						<button class = "button" onclick = "search()"> SEARCH </button>
+					</td>
+				</tr>
+			</table>
+			<div class = "footer">
+				<br><br>2018 &copy LightBulb Trolley Bookshop Pte. Ltd. (incorporated in Singapore). Thank you for supporting local business.
+			</div>
+		</div>
+	</body>
+</html>

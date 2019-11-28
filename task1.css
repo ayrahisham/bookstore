@@ -1,0 +1,240 @@
+/*
+Name: Nur Suhaira Bte Badrul Hisham
+UOW ID: 5841549
+Assignment 1 Task 1
+*/
+
+/* body */
+.background
+{
+	background-color: beige;
+}
+
+/* web banner */
+.banner 
+{ 
+	font-weight: bold;
+	font-style: italic; 
+	font-family: lucida; 
+	font-size: 50px;
+	background-color: white;
+	text-align: left;
+}
+
+/* company logo */
+.logo
+{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+
+/* promo */
+.promo
+{  
+	font-family: lucida; 
+	font-size: 30px;
+	text-align: center;
+	background-color: yellow;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/* navigation bar */
+.navbar 
+{
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar-icon
+{
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+}
+
+/* navigation bar links */
+.navbar a 
+{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+/* navigation bar links on mouse hover */
+.navbar a:hover 
+{
+	background-color: grey;
+	color: black;
+}
+
+/* active navigation bar link */
+.navbar a.active 
+{
+	background-color: maroon;
+	color: white;
+}
+
+/* right-aligned navigation bar links*/
+.navbar-right
+{
+	float: right;
+}
+
+/* submenu using list function */
+li.dropdown 
+{
+	display: inline-block;
+}
+
+.submenu 
+{
+	display: none;
+	position: relative;
+	z-index: 1;
+}
+
+.submenu a 
+{
+	color: black;
+	padding: 10px;
+	display: block;
+	text-align: center-left;
+	background-color: white;
+}
+
+.submenu a:hover 
+{
+	background-color: grey;
+}
+
+.dropdown:hover .submenu 
+{
+	display: block;
+}
+
+/* image gallery using a table */
+table 
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th
+{
+	font-style: times new roman;
+	font-size: 25px;
+	background-color: brown;
+	color: white;
+	text-align: center;
+}
+
+td 
+{
+	padding: 8px;
+	font-style: arial;
+	font-size: 20px;
+	border-bottom: 1px solid #beige;
+	text-align: center;
+}
+
+figure
+{
+	display: inline-block;
+	width: 150px;
+	height: 200px;
+}
+
+.books-zoom
+{
+	display: none;
+	position: aligned;
+	width: 200px;
+	height: 250px;
+}
+
+figcaption
+{
+	text-align: center;
+	font-style: lucida;
+	font-size: 25px;
+	padding: 5px;
+	background-color: brown;
+	color: white;
+}
+
+figure:hover .books-zoom
+{
+	display: block;
+	/*visibility: visible;*/
+	float: top;
+	z-index: 1;
+}
+
+/* user buttons */
+.readbtn
+{
+	background-image: url("images/readmore.jpg");
+	background-size: 130%;
+    background-position: 70%;	
+    width: 120px;
+    height: 100px;
+	border-radius: 100px;
+	font-family: lucida;
+	font-size: 15px;
+	color: blue;
+}
+
+.buybtn
+{
+	background-image: url("images/buynow.jpg");
+	background-size: 130%;
+    background-position: 70%;	
+    width: 120px;
+    height: 100px;
+	border-radius: 100px;
+	font-family: lucida;
+	font-size: 15px;
+	color: blue;
+}
+
+.button 
+{
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	transition-duration: 0.3s;
+	cursor: pointer;
+	background-color: white; 
+	color: black; 
+	border-color: orange;
+	border-radius: 100px;
+}
+
+.button:hover 
+{
+	background-color: orange;
+	color: white;
+}
+
+p
+{
+	text-align: left;
+}
+
+/* footer */
+.footer
+{
+	font-style: comic sans;
+	font-size: 20px;
+	text-align: center;
+}
